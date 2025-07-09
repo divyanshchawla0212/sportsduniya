@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-st.set_page_config(page_title="KollegeApply Attendance Summary Generator", page_icon="📝")
+st.set_page_config(page_title="Sportsduniya Attendance Summary Generator", page_icon="📝")
 
-st.title("📝 KollegeApply Attendance Summary Generator")
+st.title("📝 Sportsduniya Attendance Summary Generator")
 st.subheader("Upload Attendance Excel File (.xlsx or .xls)")
 
 uploaded_file = st.file_uploader("Upload file", type=["xlsx", "xls"])
